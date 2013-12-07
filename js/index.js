@@ -49,20 +49,7 @@ var app = {
 
         console.log('Received Event: ' + id);
         
-        window.fbAsyncInit = function() {
-        	alert("fb asynch");
-         FB.init({
-                appId: '253970731442450',
-                nativeInterface: CDV.FB
-                //channelUrl: 'http://www.event32ios.com',
-                //useCachedDialogs: false
-                });
-         
-        FB.getLoginStatus(function(response){
-        		alert("resp");
-        });
-        
-        }
+
         
     }
 };
