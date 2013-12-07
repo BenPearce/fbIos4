@@ -49,7 +49,8 @@ var app = {
 
         console.log('Received Event: ' + id);
         
-        
+        window.fbAsyncInit = function() {
+        	alert("fb asynch");
          FB.init({
                 appId: '253970731442450',
                 nativeInterface: CDV.FB
@@ -60,6 +61,8 @@ var app = {
         FB.getLoginStatus(function(response){
         		alert("resp");
         });
+        
+        }
         
     }
 };
