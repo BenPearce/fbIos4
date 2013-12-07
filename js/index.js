@@ -58,6 +58,8 @@ var app = {
                 });
          
         FB.getLoginStatus(function(response){
-        alert(JSON.stringify(response));
+        		alert("resp");
+        });
+        
     }
 };
