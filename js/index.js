@@ -52,9 +52,9 @@ var app = {
         
          FB.init({
                 appId: '253970731442450',
-                nativeInterface: CDV.FB,
+                nativeInterface: CDV.FB
                 //channelUrl: 'http://www.event32ios.com',
-                useCachedDialogs: false
+                //useCachedDialogs: false
                 });
          
         FB.getLoginStatus(function(response){
